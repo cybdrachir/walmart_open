@@ -3,24 +3,25 @@ require "walmart_open/stock_string"
 module WalmartOpen
   class Item
     API_ATTRIBUTES_MAPPING = {
-      "itemId" => "id",
-      "name" => "name",
-      "salePrice" => "price",
-      "upc" => "upc",
-      "categoryNode" => "category_node",
-      "shortDescription" => "short_description",
-      "longDescription" => "long_description",
-      "branchName" => "brand",
-      "standardShipRate" => "shipping_rate",
-      "size" => "size",
-      "color" => "color",
-      "modelNumber" => "model_number",
-      "productUrl" => "url",
-      "availableOnline" => "available_online",
-      "marketplace" => "marketplace",
-      "largeImage" => "large_image",
-      "thumbnailImage" => "thumbnail_image",
-      "mediumImage" => "medium_image"
+        "itemId" => "id",
+        "name" => "name",
+        "salePrice" => "price",
+        "upc" => "upc",
+        "categoryNode" => "category_node",
+        "shortDescription" => "short_description",
+        "longDescription" => "long_description",
+        "branchName" => "brand",
+        "standardShipRate" => "shipping_rate",
+        "size" => "size",
+        "color" => "color",
+        "modelNumber" => "model_number",
+        "productUrl" => "url",
+        "availableOnline" => "available_online",
+        "marketplace" => "marketplace",
+        "largeImage" => "large_image",
+        "thumbnailImage" => "thumbnail_image",
+        "mediumImage" => "medium_image",
+        "stock" => "stock"
     }
 
     API_ATTRIBUTES_MAPPING.each_value do |attr_name|
